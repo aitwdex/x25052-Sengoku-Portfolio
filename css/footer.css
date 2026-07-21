@@ -1,0 +1,44 @@
+.contact-heading {
+  position: absolute;
+  top: 3297px;
+  left: 532px;
+  margin: 0;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1.18;
+}
+
+.contact-line-left {
+  top: 3504px;
+  left: 25px;
+  width: 379px;
+}
+
+.contact-line-right {
+  top: 3503px;
+  left: 864px;
+  width: 379px;
+}
+
+.social-list {
+  position: absolute;
+  top: 3471px;
+  left: 462px;
+  display: flex;
+  gap: 33px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.social-link,
+.social-link img {
+  display: block;
+  width: 64px;
+  height: 64px;
+}
+
+.home-top-link {
+  top: 3635px;
+  left: 560px;
+}
