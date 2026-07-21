@@ -1,0 +1,164 @@
+.work-page-title {
+  top: 187px;
+  left: 41px;
+}
+
+.work-page-line {
+  top: 287px;
+  left: 236px;
+  width: 464px;
+}
+
+.work-category-label {
+  position: absolute;
+  display: grid;
+  place-items: center start;
+  height: 123px;
+  padding: 0 18px;
+  margin: 0;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+  white-space: nowrap;
+  border: 2px solid var(--ink);
+  border-radius: 15px;
+}
+
+.cg-content-label {
+  top: 338px;
+  left: 60px;
+  width: 427px;
+}
+
+.cg-programming-label {
+  top: 1464px;
+  left: 58px;
+  width: 553px;
+}
+
+.multimedia-label {
+  top: 2305px;
+  left: 58px;
+  width: 487px;
+}
+
+.work-room {
+  top: 505px;
+  left: 60px;
+  width: 696px;
+  height: 387px;
+  border-radius: 30px;
+}
+
+.work-room img {
+  object-fit: cover;
+  transform: scale(2.22);
+}
+
+.work-description {
+  position: absolute;
+  margin: 0;
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+.cg-content-copy {
+  top: 556px;
+  left: 790px;
+  width: 466px;
+  height: 285px;
+  font-size: 32px;
+}
+
+.work-bag {
+  top: 940px;
+  left: 60px;
+  width: 300px;
+  height: 460px;
+  border-radius: 30px;
+}
+
+.work-pen {
+  top: 940px;
+  left: 382px;
+  width: 318px;
+  height: 458px;
+  border-radius: 30px;
+}
+
+.work-horse {
+  top: 985px;
+  left: 722px;
+  width: 513px;
+  height: 368px;
+  border-radius: 30px;
+}
+
+.numbered-media {
+  position: absolute;
+  width: 535px;
+  height: 274px;
+  overflow: hidden;
+  background: var(--placeholder);
+}
+
+.numbered-media img,
+.numbered-media video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.media-1 {
+  top: 1635px;
+  left: 68px;
+}
+
+.media-2 {
+  top: 1957px;
+  left: 67px;
+}
+
+.media-3 {
+  top: 1957px;
+  left: 640px;
+}
+
+.cg-programming-copy {
+  top: 1666px;
+  left: 637px;
+  width: 619px;
+  height: 291px;
+  font-size: 36px;
+}
+
+.work-multimedia-poster {
+  top: 2476px;
+  left: 119px;
+  width: 366px;
+  height: 516px;
+  border-radius: 20px;
+}
+
+.multimedia-copy {
+  top: 2532px;
+  left: 582px;
+  width: 633px;
+  height: 565px;
+  font-size: 36px;
+}
+
+.media-4 {
+  top: 3085px;
+  left: 40px;
+}
+
+.media-5 {
+  top: 3085px;
+  left: 640px;
+}
+
+.work-top-link {
+  top: 3630px;
+  left: 560px;
+}
