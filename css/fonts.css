@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "Oswald Local";
+  src: url("../assets/fonts/Oswald-Variable.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 200 700;
+  font-display: swap;
+}

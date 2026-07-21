@@ -1,0 +1,237 @@
+.home-name {
+  position: absolute;
+  top: 217px;
+  left: 74px;
+  margin: 0;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1.18;
+  text-shadow: 0 6px 8px rgb(0 0 0 / 25%);
+}
+
+.name-line {
+  top: 312px;
+  left: 68px;
+  width: 350px;
+}
+
+.home-tagline {
+  position: absolute;
+  top: 312px;
+  left: 219px;
+  margin: 0;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.18;
+  white-space: nowrap;
+}
+
+.home-summary {
+  position: absolute;
+  top: 433px;
+  left: 68px;
+  width: 890px;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 1.48;
+}
+
+.profile-photo {
+  top: 343px;
+  left: 983px;
+  width: 254px;
+  height: 293px;
+  border: 0;
+  border-radius: 20px;
+  opacity: 0.9;
+}
+
+.profile-photo img {
+  border-radius: 20px;
+}
+
+.profile-title {
+  top: 712px;
+  left: 68px;
+}
+
+.profile-line {
+  top: 802px;
+  left: 383px;
+  width: 464px;
+}
+
+.profile-card {
+  position: absolute;
+  top: 859px;
+  left: 56px;
+  width: 1144px;
+  height: 142px;
+  border: 4px solid var(--ink);
+  border-radius: 20px;
+}
+
+.profile-details {
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  margin: 0;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.42;
+  white-space: nowrap;
+}
+
+.home-work-title {
+  top: 1089px;
+  left: 43px;
+}
+
+.home-work-line {
+  top: 1189px;
+  left: 238px;
+  width: 464px;
+}
+
+.more-link {
+  position: absolute;
+  top: 1198px;
+  left: 657px;
+  display: block;
+  width: 136px;
+  height: 110px;
+  font-size: 64px;
+  line-height: 1.18;
+}
+
+.more-arrow {
+  position: absolute;
+  top: 1227px;
+  left: 542px;
+  width: 88px;
+  height: 44px;
+}
+
+.more-arrow::before {
+  content: "";
+  position: absolute;
+  top: 21px;
+  left: 0;
+  width: 86px;
+  height: 4px;
+  background: var(--ink);
+}
+
+.more-arrow::after {
+  content: "";
+  position: absolute;
+  top: 13px;
+  right: 1px;
+  width: 18px;
+  height: 18px;
+  border-top: 4px solid var(--ink);
+  border-right: 4px solid var(--ink);
+  transform: rotate(45deg);
+}
+
+.home-horse {
+  top: 1409px;
+  left: 43px;
+  width: 762px;
+  height: 547px;
+  border-radius: 30px;
+}
+
+.home-fluid {
+  top: 1309px;
+  left: 831px;
+  width: 425px;
+  height: 246px;
+  border-radius: 20px;
+}
+
+.home-poster {
+  top: 1594px;
+  left: 864px;
+  width: 352px;
+  height: 497px;
+  border-radius: 20px;
+}
+
+.skills-title {
+  top: 2164px;
+  left: 43px;
+}
+
+.skills-line {
+  top: 2259px;
+  left: 263px;
+  width: 464px;
+}
+
+.skill-card {
+  position: absolute;
+  border: 3px solid var(--ink);
+  border-radius: 40px;
+}
+
+.adobe-card {
+  top: 2350px;
+  left: 74px;
+  width: 1132px;
+  height: 337px;
+}
+
+.programming-card {
+  top: 2722px;
+  left: 511px;
+  width: 695px;
+  height: 337px;
+}
+
+.skill-copy {
+  position: absolute;
+  margin: 0;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1.42;
+  white-space: pre;
+}
+
+.adobe-copy {
+  top: 20px;
+  left: 27px;
+}
+
+.programming-copy {
+  top: 12px;
+  left: 29px;
+  line-height: 1.38;
+}
+
+.adobe-icon {
+  position: absolute;
+  object-fit: contain;
+}
+
+.adobe-ai {
+  top: 26px;
+  left: 716px;
+  width: 112px;
+  height: 110px;
+}
+
+.adobe-ae {
+  top: 104px;
+  left: 807px;
+  width: 195px;
+  height: 123px;
+}
+
+.adobe-ps {
+  top: 194px;
+  left: 983px;
+  width: 118px;
+  height: 115px;
+}

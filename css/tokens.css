@@ -1,0 +1,13 @@
+:root {
+  --canvas-width: 1280;
+  --canvas-height: 3773;
+  --ink: #000;
+  --paper: #fff;
+  --placeholder: #d9d9d9;
+  --border-thin: 2px;
+  --border-medium: 3px;
+  --radius-small: 10px;
+  --radius-medium: 20px;
+  --radius-large: 30px;
+  --font-display: "Oswald Local", "Arial Narrow", sans-serif;
+}

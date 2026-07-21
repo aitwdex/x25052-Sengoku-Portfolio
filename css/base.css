@@ -1,0 +1,132 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--paper);
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-display);
+  overflow-x: hidden;
+}
+
+a,
+button {
+  color: inherit;
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  border: 0;
+  padding: 0;
+  background: none;
+}
+
+img,
+video {
+  display: block;
+}
+
+figure {
+  margin: 0;
+}
+
+.page-shell {
+  position: relative;
+  width: 1280px;
+  height: 3773px;
+  margin-inline: auto;
+  overflow: hidden;
+  background: var(--paper);
+}
+
+.page-canvas {
+  position: absolute;
+  inset: 0 auto auto 0;
+  width: 1280px;
+  height: 3773px;
+  overflow: hidden;
+  background: var(--paper);
+  transform-origin: top left;
+}
+
+.section-title {
+  position: absolute;
+  margin: 0;
+  font-size: 96px;
+  font-weight: 400;
+  line-height: 1.18;
+}
+
+.title-line,
+.contact-line,
+.name-line {
+  position: absolute;
+  height: 6px;
+  background: var(--ink);
+}
+
+.image-frame {
+  position: absolute;
+  overflow: hidden;
+  border: 1px solid var(--ink);
+}
+
+.image-frame > img,
+.image-frame > video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.outlined-label,
+.top-link {
+  border: 2px solid var(--ink);
+  border-radius: var(--radius-small);
+  background: transparent;
+}
+
+.top-link {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  width: 159px;
+  height: 97px;
+  font-size: 64px;
+  line-height: 1;
+}
+
+.nav-link,
+.more-link,
+.top-link,
+.social-link {
+  transition: opacity 140ms ease;
+}
+
+.nav-link:hover,
+.more-link:hover,
+.top-link:hover,
+.social-link:hover {
+  opacity: 0.58;
+}
+
+.nav-link:focus-visible,
+.more-link:focus-visible,
+.top-link:focus-visible,
+.social-link:focus-visible,
+.portfolio-video:focus-visible {
+  outline: 5px solid #2f6fff;
+  outline-offset: 5px;
+}
